@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Document</title>
 </head>
 <body>
@@ -46,28 +48,27 @@
             <a href="#" class="header__link">Help & Support</a>
             <button class="header__btn">Download</button>
         </nav>
+        <button class="mobile__menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path></svg>
+        </button>
     </div>
 </header>
 <main>
     <section class="hero">
         <img src="./images/hero1.png" alt="" class="hero__img">
         <div class="hero__container container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="hero__box">
-                        <h1 class="hero__title">
-                            <span class="hero__title--color">Order ahead</span> <br>and earn rewards for every purchase
-                            <span class="hero__dot">.</span>
-                        </h1>
-                        <a href="#" class="hero__btn">Discover how
-                            <svg width="32" height="21" viewBox="0 0 32 21" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M2 10.5H30M16 19L30 10.5L16 2V19Z" stroke="#173753" stroke-width="2.481"
-                                      stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+            <div class="hero__box">
+                <h1 class="hero__title">
+                    <span class="hero__title--color">Order ahead</span> <br>and earn rewards for every purchase
+                    <span class="hero__dot">.</span>
+                </h1>
+                <a href="#" class="hero__btn">Discover how
+                    <svg width="32" height="21" viewBox="0 0 32 21" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 10.5H30M16 19L30 10.5L16 2V19Z" stroke="#173753" stroke-width="2.481"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
@@ -84,15 +85,13 @@
                     <img src="./images/percent.svg" alt="percent sign">
                     <h2 class="features__title">Bonus and discounts</h2>
                     <p class="features__desc">You can enjoy lots of discounts from the selected stores, or
-                        accumulate
-                        points.</p>
+                        accumulate points.</p>
                 </div>
                 <div class="features__box">
                     <img src="./images/cocktail.svg" alt="cocktail">
                     <h2 class="features__title">Share with your friends</h2>
                     <p class="features__desc">Send gifts to your friends and family, and pick up for your coworkers
-                        when
-                        they can't get away .</p>
+                        when they can't get away .</p>
                 </div>
             </div>
         </div>
@@ -101,8 +100,8 @@
         <div class="container">
             <div class="instructions__grid">
                 <div class="instructions__img">
-                    <img src="./images/image%203.png" alt="cocktail" class="/instructions__img__cocktail">
-                    <img src="./images/phone.png" alt="phone" class="instructions__absolute">
+                    <img src="./images/image%203.png" alt="cocktail" class="instructions__img__cocktail">
+                    <img src="./images/phone.png" alt="phone" class="instructions__absolute rellax" data-rellax-speed='1' data-rellax-percentage='0.5'>
                     <img src="./images/image%202-2.png" alt="chips" class="instructions__absolute-2">
                 </div>
                 <div class="owl-carousel owl-theme">
@@ -142,7 +141,7 @@
         <div class="container">
             <div class="discount__grid">
                 <div class="discount__boxes">
-                    <div class="discount__box">
+                    <div class="discount__box" data-aos="zoom-in-down">
                         <div class="discount__icon">
                             <svg width="24" height="31" viewBox="0 0 24 31" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +166,7 @@
                                 Teas.</p>
                         </div>
                     </div>
-                    <div class="discount__box">
+                    <div class="discount__box" data-aos="zoom-in-right">
                         <div class="discount__icon">
                             <svg width="31" height="32" viewBox="0 0 31 32" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -183,7 +182,7 @@
                                 you.</p>
                         </div>
                     </div>
-                    <div class="discount__box">
+                    <div class="discount__box" data-aos="zoom-in-up">
                         <div class="discount__icon">
                             <svg width="33" height="22" viewBox="0 0 33 22" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -212,35 +211,35 @@
                 <div class="owl-carousel owl-theme">
                     <div class="gifts__box">
                         <span class="gifts__subtitle">Please your friends</span>
-                        <h2 class="gifts__title">Send gifts and <br> order for groups</h2>
+                        <h2 class="gifts__title">Send gifts and order for groups</h2>
                         <p class="gifts__desc">Send Gifts with a value for your friends and family and use it on their
                             favorite stores. Be the rock star make Group Orders and pick up for your coworkers when they
                             can't get away.</p>
                     </div>
                     <div class="gifts__box">
                         <span class="gifts__subtitle">Please your friends</span>
-                        <h2 class="gifts__title">Send gifts and <br> order for groups</h2>
+                        <h2 class="gifts__title">Send gifts and order for groups</h2>
                         <p class="gifts__desc">Send Gifts with a value for your friends and family and use it on their
                             favorite stores. Be the rock star make Group Orders and pick up for your coworkers when they
                             can't get away.</p>
                     </div>
                     <div class="gifts__box">
                         <span class="gifts__subtitle">Please your friends</span>
-                        <h2 class="gifts__title">Send gifts and <br> order for groups</h2>
+                        <h2 class="gifts__title">Send gifts and order for groups</h2>
                         <p class="gifts__desc">Send Gifts with a value for your friends and family and use it on their
                             favorite stores. Be the rock star make Group Orders and pick up for your coworkers when they
                             can't get away.</p>
                     </div>
                     <div class="gifts__box">
                         <span class="gifts__subtitle">Please your friends</span>
-                        <h2 class="gifts__title">Send gifts and <br> order for groups</h2>
+                        <h2 class="gifts__title">Send gifts and order for groups</h2>
                         <p class="gifts__desc">Send Gifts with a value for your friends and family and use it on their
                             favorite stores. Be the rock star make Group Orders and pick up for your coworkers when they
                             can't get away.</p>
                     </div>
                 </div>
-                <div class="gifts__img">
-                    <img src="./images/phone2.png" alt="phone" class="gifts__absolute-3">
+                <div class="gifts__img ">
+                    <img src="./images/phone2.png" alt="phone" class="gifts__absolute-3 rellax" data-rellax-speed='1' data-rellax-percentage='0.5'>
                     <img src="./images/blueberry.png" alt="blueberry" class="gifts__absolute-4">
                     <img src="./images/image%205.png" alt="cocktail" class="gifts__cocktail-2">
                 </div>
@@ -424,6 +423,8 @@
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
